@@ -19,3 +19,15 @@ The script does the following:
 * Bind the x\_, y\_ and subjects into one single data set
 * compute the mean values
 * Write a Tidy\_UCI\_HAR.csv data file with the header and data
+
+### Variables
+* **x\_train, y\_train, subject\_train** are the raw training data sets
+* **x\_test, y\_test, subject\_test** are the raw testing data sets
+* **x\_merge** merges the x\_train and x\_test data
+* **y\_merge** merges the y\_train and y\_test data
+* **subject\_merge** merges the subject\_train and subject\_test data
+* **merged\_data** is a list of the three merged data sets
+* **features** is the raw feature names data
+* **mean\_std\_features** identifies (TRUE/FALSE) the features that have mean or std (standard deviation) in their names
+* **all\_data** takes all the merged lists and creates a single data frame
+* **tidy\_data** is the data frame with the mean function applied to the all\_data data frame
