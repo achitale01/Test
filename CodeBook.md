@@ -18,7 +18,7 @@ The script does the following:
 * Add descriptive activity names
 * Bind the x\_, y\_ and subjects into one single data set
 * compute the mean values
-* Write a Tidy\_UCI\_HAR.csv data file with the header and data
+* Write a Tidy\_UCI\_HAR.txt data file with the header and data
 
 ### Variables
 * **x\_train, y\_train, subject\_train** are the raw training data sets
@@ -31,3 +31,6 @@ The script does the following:
 * **mean\_std\_features** identifies (TRUE/FALSE) the features that have mean or std (standard deviation) in their names
 * **all\_data** takes all the merged lists and creates a single data frame
 * **tidy\_data** is the data frame with the mean function applied to the all\_data data frame
+
+### Output
+**Tidy\_UCI\_HAR.txt** is the output data file created with write.table\(\)
